@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="form.css">
+  <title>Cafe Feedback Form</title>
+</head>
+
+<header>
+  <nav>
+      <div class="navdiv">
+          <ul class="main-nav">
+              <li><a href="home.html" style="color: white;">Home</a></li>
+              <li><a href="menu.html" style="color: white;">Menu</a></li>
+              <li><a href="about.html" style="color: white;">About</a></li>
+              <li><a href="contact.html" style="color: white;">Contact Us</a></li>
+          </ul>
+          <ul class="secondary-nav">
+              <li><a href="reservations.html" style="color: white;">Reservations</a></li>
+              <li><a href="signin.html" style="color: white;">Sign In</a></li>
+              <li><a href="signup.html" style="color: white;">Sign Up</a></li>
+          </ul>
+      </div>
+  </nav>
+</header>
+
+<body>
+  <form id="feedbackForm" action="submit_feedback.php" method="post">
+
+    <!-- Frequency of Cafe Visits -->
+    <div class="feedback-section">
+        <h1>Cafe Feedback Form</h1>
+      <h2>How often do you visit cafes?</h2>
+      <label><input type="radio" name="visit_frequency" value="Daily"> Daily</label><br>
+      <label><input type="radio" name="visit_frequency" value="Several times a week"> Several times a week</label><br>
+      <label><input type="radio" name="visit_frequency" value="Once a month"> Once a month</label><br>
+      <label><input type="radio" name="visit_frequency" value="Several times a month"> Several times a month</label><br>
+      <label><input type="radio" name="visit_frequency" value="Once a year"> Once a year</label><br>
+      <label><input type="radio" name="visit_frequency" value="Never"> Never</label>
+    </div>
+
+    <!-- Staff Rating -->
+    <div class="feedback-section">
+      <h2>How would you rate the staff at our cafe?</h2>
+      <table>
+        <tr>
+          <th>Question</th>
+          <th>Very Satisfied</th>
+          <th>Satisfied</th>
+          <th>Neutral</th>
+          <th>Unsatisfied</th>
+          <th>Very Unsatisfied</th>
+        </tr>
+        <tr>
+          <td>A member of staff noticed me and served me immediately</td>
+          <td><input type="radio" name="staff_immediate" value="5"></td>
+          <td><input type="radio" name="staff_immediate" value="4"></td>
+          <td><input type="radio" name="staff_immediate" value="3"></td>
+          <td><input type="radio" name="staff_immediate" value="2"></td>
+          <td><input type="radio" name="staff_immediate" value="1"></td>
+        </tr>
+        <tr>
+          <td>The staff were helpful and pleasant</td>
+          <td><input type="radio" name="staff_helpful" value="5"></td>
+          <td><input type="radio" name="staff_helpful" value="4"></td>
+          <td><input type="radio" name="staff_helpful" value="3"></td>
+          <td><input type="radio" name="staff_helpful" value="2"></td>
+          <td><input type="radio" name="staff_helpful" value="1"></td>
+        </tr>
+        <!-- Add more rows as needed -->
+      </table>
+    </div>
+
+    <!-- Agreement Section -->
+    <div class="feedback-section">
+      <h2>To what extent do you agree with the following statements about your experience in our cafe?</h2>
+      <table>
+        <tr>
+          <th>Statement</th>
+          <th>Strongly Agree</th>
+          <th>Agree</th>
+          <th>Neutral</th>
+          <th>Disagree</th>
+          <th>Strongly Disagree</th>
+        </tr>
+        <tr>
+          <td>The quality and speed of service was excellent</td>
+          <td><input type="radio" name="service_quality" value="5"></td>
+          <td><input type="radio" name="service_quality" value="4"></td>
+          <td><input type="radio" name="service_quality" value="3"></td>
+          <td><input type="radio" name="service_quality" value="2"></td>
+          <td><input type="radio" name="service_quality" value="1"></td>
+        </tr>
+        <tr>
+          <td>The food served was of high quality and tasted good</td>
+          <td><input type="radio" name="food_quality" value="5"></td>
+          <td><input type="radio" name="food_quality" value="4"></td>
+          <td><input type="radio" name="food_quality" value="3"></td>
+          <td><input type="radio" name="food_quality" value="2"></td>
+          <td><input type="radio" name="food_quality" value="1"></td>
+        </tr>
+        <!-- Add more rows as needed -->
+      </table>
+    </div>
+
+    <button type="submit">Submit Feedback</button>
+  </form>
+
+  <footer>
+    <p><strong>Open:</strong> Mon-Sun | 8 AM - 10 PM</p>
+    <p><strong>Email:</strong>
+        <a href="mailto:karanveer2783@chitkara.edu.in" class="mail-link">karanveer2783@chitkara.edu.in</a>,
+        <a href="mailto:jaspreet2775@chitkara.edu.in" class="mail-link">jaspreet2775@chitkara.edu.in</a>,
+        <a href="mailto:khushi2792@chitkara.edu.in" class="mail-link">khushi2792@chitkara.edu.in</a>
+    </p>
+    <p><strong>Address:</strong> 123, Square One, Chitkara University, Punjab, India</p>
+    
+    <div class="quick-links">
+        <h4>Quick Links</h4>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+    
+    <p>&copy; 2024 Café Beanzza. All Rights Reserved.</p>
+</footer>
+
+<script>
+  // JavaScript to display the alert after form submission
+  document.getElementById('feedbackForm').addEventListener('submit', function(event) {
+    // Prevent form from submitting immediately
+    event.preventDefault();
+
+    // Show the alert
+    alert('Thank you for your response! Your response has been submitted.');
+
+    // Optionally, submit the form after the alert
+    // this.submit(); // Uncomment this line if you want the form to actually submit after the alert
+  });
+</script>
+
+</body>
+</html>

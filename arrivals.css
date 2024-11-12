@@ -1,0 +1,107 @@
+#heading{font-family: cursive;
+text-align: center;
+background-color: rgb(81, 227, 81);
+height:40px;
+line-height:40px;
+font-size: 25px;
+color:white;
+}
+#image1{height:200px;
+    margin-top: 30px;
+    width:170px;
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 100ms ease-in-out;}
+#image1:hover{transform: scale(1.1);}
+#book1{display: inline;
+    margin-left: 100px;}
+
+.books{display: inline;
+        margin-left:200px;
+}
+.image{height:200px;
+    margin-top:30px;
+    width:170px;
+    box-shadow:15px 10px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 100ms ease-in-out;
+}
+.image:hover{transform:scale(1.1);}
+#book5{display: inline;
+    margin-left: 100px;}
+#image5{height:200px;
+    margin-top: 30px;
+    width:170px;
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 100ms ease-in-out;}
+#image5:hover{transform:scale(1.1);}
+#book9{display: inline;
+    margin-left: 100px;}
+#image9{height:200px;
+    margin-top: 30px;
+    width:170px;
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 100ms ease-in-out;}
+#image9:hover{transform: scale(1.1);}
+#book13{display: inline;
+    margin-left: 100px;}
+#image13{height:200px;
+    margin-top: 30px;
+    width:170px;
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 100ms ease-in-out;}
+#image13:hover{transform: scale(1.1);}
+#book17{display: inline;
+    margin-left: 100px;}
+#image17{height:200px;
+    margin-top: 30px;
+    width:170px;
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 100ms ease-in-out;}
+#image17:hover{transform: scale(1.1);}
+#footer{background:radial-gradient(rgb(166, 244, 166),rgb(214, 214, 214));
+    height:130px;
+    margin-top:400px; 
+    align-items: center; 
+    text-align: center;
+}
+#facebook{width: 40px; 
+    margin-top:60px; 
+    border-radius: 50%;
+    margin-left: 400px;
+}
+#insta{width: 40px; 
+    height:40px; 
+    margin-top:60px; 
+    border-radius: 50%;
+    margin-left: 15px;
+}
+#twitter{width: 40px;
+    height:40px; 
+    margin-top:60px; 
+    border-radius: 50%;
+    margin-left: 15px;
+}
+#linkedin{width: 40px; 
+    height:40px;
+    margin-top:60px; 
+    border-radius: 50%;
+    margin-left: 15px;
+}
+#youtube{width: 40px; 
+    height:40px;
+    margin-top:60px; 
+    border-radius: 50%;
+    margin-left: 15px;
+}
+#aboutus{
+    margin-left: 350px;
+    display: inline;
+}
+#about{text-decoration: none;
+    color:black; 
+    font-size: 18px;
+}
+#copy{margin-top: 1px;
+}
+
+
+

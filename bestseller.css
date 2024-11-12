@@ -1,0 +1,102 @@
+#feature{text-align: center;
+    background-color:rgb(81, 227, 81);
+height:40px;
+line-height: 40px;
+/* line-height is used so that heading here can be placed at cemter from top or we can say from four sides. */
+color:white;
+}
+#roomie{display: inline;
+margin-left: 100px;}
+#temp{height:200px;
+margin-top: 30px;
+width:170px;
+box-shadow:10px 10px 10px rgba(0, 0, 0, 0.5);
+transition: transform 100ms ease-in-out;}
+#temp:hover{transform: scale(1.1);
+}
+.image{height:300px;
+margin-top:20px;
+}
+.books{display: inline;
+    margin-left:200px;
+}
+.image{height:200px;
+    margin-top:30px;
+    width:170px;
+    box-shadow:15px 10px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 100ms ease-in-out;
+}
+.image:hover{transform:scale(1.1);
+}
+#love{display: inline;
+    margin-left: 100px;}
+
+#anymore{height:200px;
+    margin-top: 30px;
+    width:170px;
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 100ms ease-in-out;}
+#anymore:hover{transform: scale(1.1);}
+#image9{height:200px;
+    margin-top: 30px;
+    width:170px;
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 100ms ease-in-out;}
+#image9:hover{transform:scale(1.1);}
+#book9{display: inline;
+    margin-left: 100px;}
+
+#book13{display: inline;
+    margin-left: 100px;}
+#image13{height:200px;
+    margin-top: 30px;
+    width:170px;
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 100ms ease-in-out;}
+#image13:hover{transform:scale(1.1);}
+#footer{background:radial-gradient(rgb(166, 244, 166),rgb(214, 214, 214));
+    height:130px;
+    margin-top:400px; 
+    align-items: center; 
+    text-align: center;
+}
+#facebook{width: 40px; 
+    margin-top:60px; 
+    border-radius: 50%;
+    margin-left: 400px;
+}
+#insta{width: 40px; 
+    height:40px; 
+    margin-top:60px; 
+    border-radius: 50%;
+    margin-left: 15px;
+}
+#twitter{width: 40px;
+    height:40px; 
+    margin-top:60px; 
+    border-radius: 50%;
+    margin-left: 15px;
+}
+#linkedin{width: 40px; 
+    height:40px;
+    margin-top:60px; 
+    border-radius: 50%;
+    margin-left: 15px;
+}
+#youtube{width: 40px; 
+    height:40px;
+    margin-top:60px; 
+    border-radius: 50%;
+    margin-left: 15px;
+}
+#aboutus{
+    margin-left: 350px;
+    display: inline;
+}
+#about{text-decoration: none;
+    color:black; 
+    font-size: 18px;
+}
+#copy{margin-top: 1px;
+}
+

@@ -1,0 +1,41 @@
+#heading{background-color: rgb(81, 227, 81);
+    text-align: center;
+    height:35px;
+    color:white;
+    line-height: 35px;
+    font-size: 20px;
+}
+#image1{height:200px;
+    margin-top: 30px;
+    width:170px;
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 100ms ease-in-out;}
+#image1:hover{transform: scale(1.1);}
+#book1{display: inline;
+    margin-left: 100px;}
+.books{display: inline;
+        margin-left:200px;
+}
+.image{height:200px;
+    margin-top:30px;
+    width:170px;
+    box-shadow:15px 10px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 100ms ease-in-out;
+}
+.image:hover{transform:scale(1.1);}
+#book5{display: inline;
+    margin-left: 100px;}
+#image5{height:200px;
+    margin-top: 30px;
+    width:170px;
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 100ms ease-in-out;}
+#image5:hover{transform:scale(1.1);}
+#book9{display: inline;
+    margin-left: 100px;}
+#image9{height:200px;
+    margin-top: 30px;
+    width:170px;
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 100ms ease-in-out;}
+#image9:hover{transform: scale(1.1);}
